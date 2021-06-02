@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.que
+{
+  color: blueviolet;
+}
+.queval
+{
+  color: magenta;
+}
+.ans
+{
+  color: coral;
+}
+.ansval
+{
+  color: brown;
+}
+
+body{
+  margin-left: 3%;
+}

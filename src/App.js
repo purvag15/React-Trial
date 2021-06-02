@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Joke from './Joke';
 
-function App() {
+function App()
+{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div>
+        <Joke joke={{question: "Why is 1 so scared of 7?", punchline: "Because 7 ate 9"}}
+        />
+        <Joke joke={{question: "Why are alphabets so bad by manners?", punchline: "Because abc = ae BC!"}}
+        />
+        <Joke joke={{punchline: "All socks are eyes and all eyes are pyjamas!"}}
+        />
+      </div>
+  )
 }
 
 export default App;
