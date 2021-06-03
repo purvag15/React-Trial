@@ -8,6 +8,7 @@ import productsData from "./productsData";
 import Product from "./Product";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Navbar from "./Navbar";
+import IncrDecr from "./IncrDecr";
 
 function App()
 {
@@ -32,17 +33,23 @@ function App()
   return (
       <Router>
           <div>
+              <br />
               <Navbar />
+              <br /><br />
               {/* Switch is used to ensure that at once, only one route is chosen by react.
               It works in a top-down fashion. */}
               <Switch>
                   {/* exact keyword matches the path exactly with the url path. If not specified,
                    it can match a substring too! */}
+                  <Route exact path = "/">
+                      <h1>Incrementor/Decrementor</h1>
+                      <IncrDecr />
+                  </Route>
                   <Route exact path="/product">
                       <h1> Products </h1>
                       {productsArray}
                   </Route>
-                  <Route exact path="/">
+                  <Route exact path="/jokes">
                       <h1> Jokes </h1>
                       {jokesArray}
                   </Route>

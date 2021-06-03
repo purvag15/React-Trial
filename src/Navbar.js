@@ -7,7 +7,8 @@ class Navbar extends React.Component{
             <div>
                 <nav>
                     <a href="/product"> Products</a> |
-                    &nbsp;<a href="/">Jokes</a>
+                    &nbsp;<a href="/jokes">Jokes</a> |
+                    &nbsp;<a href="/">Home</a>
 
                 {/*    We can use <Link to="/create> instead of <a href=""> because anchor tag
                 sends request to the server to fetch a new page, but Link tag links pages at browser
