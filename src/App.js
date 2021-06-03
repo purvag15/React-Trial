@@ -9,6 +9,7 @@ import Product from "./Product";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Navbar from "./Navbar";
 import IncrDecr from "./IncrDecr";
+import Todo from "./Todo";
 
 function App()
 {
@@ -52,6 +53,10 @@ function App()
                   <Route exact path="/jokes">
                       <h1> Jokes </h1>
                       {jokesArray}
+                  </Route>
+                  <Route exact path = "/todo">
+                      <h1>Todo_App</h1>
+                      <Todo />
                   </Route>
               </Switch>
           </div>
