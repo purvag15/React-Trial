@@ -1,0 +1,5 @@
+Ref: https://scrimba.com/p/p4Mrt9/cQnMDHD
+
+Class based components:
+1. These are important to maintain the state of react components.
+2. We use constructor to do so.

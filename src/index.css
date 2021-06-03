@@ -15,15 +15,18 @@ body {
 {
   color: magenta;
 }
-.ans
-{
-  color: coral;
-}
-.ansval
-{
-  color: brown;
-}
 
 body{
   margin-left: 3%;
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  color: darkolivegreen;
+  text-decoration-line: underline;
+}
+
+nav {
+  display: block;
 }
