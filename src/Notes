@@ -3,3 +3,8 @@ Ref: https://scrimba.com/p/p4Mrt9/cQnMDHD
 Class based components:
 1. These are important to maintain the state of react components.
 2. We use constructor to do so.
+
+Function based components: (hooks)
+1. useEffect is mainly used to create side effects in the program (replacement to lifecycle methods)
+2. useState is used to set and update the state of the program
+3. setInterval and clearInterval are used as componentDidUnmount
