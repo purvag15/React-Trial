@@ -36,6 +36,8 @@ class IncrDecr extends React.Component{
     {
         return (
             <div>
+
+                <h2>(Traditional class-based method)</h2>
                 <h2 style={{color: this.state.color, textAlign: "center"}}> {this.state.count} </h2>
                 <br />
                 <button className="center" onClick={() => this.increment()}>

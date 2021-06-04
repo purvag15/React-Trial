@@ -12,6 +12,7 @@ import IncrDecr from "./AppResources/IncrDecr";
 import Todo from "./AppResources/Todo";
 import Form from "./AppResources/Form";
 import MemeGen from "./AppResources/MemeGen";
+import IncrDecrHooks from "./AppResources/IncrDecrHooks";
 
 function App()
 {
@@ -47,6 +48,7 @@ function App()
                   <Route exact path = "/">
                       <h1>Incrementor/Decrementor</h1>
                       <IncrDecr />
+                      <IncrDecrHooks />
                   </Route>
                   <Route exact path="/product">
                       <h1> Products </h1>
