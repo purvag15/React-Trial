@@ -12,9 +12,10 @@ class Navbar extends React.Component{
                 <nav>
                     <a href="/product"style={styles}> Products</a> |
                     <a href="/jokes"style={styles}>Jokes</a> |
-                    <a href="/" style={styles}>Home</a> |
+                    <a href="/" style={styles}>Incrementor/Decrementor</a> |
                     <a href="/todo"style={styles}>Todo_App</a> |
                     <a href="/form"style={styles}>Form</a> |
+                    <a href="/memegen"style={styles}>Meme Generator</a>
 
                     {/*    We can use <Link to="/create> instead of <a href=""> because anchor tag
                 sends request to the server to fetch a new page, but Link tag links pages at browser

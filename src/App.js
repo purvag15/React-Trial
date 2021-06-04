@@ -11,6 +11,7 @@ import Navbar from "./AppResources/Navbar";
 import IncrDecr from "./AppResources/IncrDecr";
 import Todo from "./AppResources/Todo";
 import Form from "./AppResources/Form";
+import MemeGen from "./AppResources/MemeGen";
 
 function App()
 {
@@ -62,6 +63,9 @@ function App()
                   <Route exact path = "/form">
                       <h1>Form</h1>
                       <Form />
+                  </Route>
+                  <Route exact path = "/memegen">
+                      <MemeGen />
                   </Route>
               </Switch>
           </div>
