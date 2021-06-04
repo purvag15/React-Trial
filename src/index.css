@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  margin-left: 3%;
+  background-color: beige;
 }
 
 .que
@@ -16,10 +19,6 @@ body {
   color: magenta;
 }
 
-body{
-  margin-left: 3%;
-  background-color: beige;
-}
 
 h1 {
   text-align: center;
@@ -48,8 +47,8 @@ div {
 }
 
 button {
-  border: 1px solid lightgray;
-  background-color: transparent;
+  border: 3px solid lightgray;
+  background-color: mistyrose;
   padding: 10px;
   border-radius: 4px;
 }
@@ -104,5 +103,18 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:focus {
-  outline: 0;
+  outline: 5px;
+}
+
+form{
+  border-width: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label{
+  /*text-effect: emboss;*/
+  font-weight: bold;
 }

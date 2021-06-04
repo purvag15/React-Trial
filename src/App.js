@@ -2,14 +2,15 @@
 
 import './App.css';
 import React from "react";
-import Joke from './Joke';
-import jokesData from './jokesData';
-import productsData from "./productsData";
-import Product from "./Product";
+import Joke from './AppResources/Joke';
+import jokesData from './AppResources/jokesData';
+import productsData from "./AppResources/productsData";
+import Product from "./AppResources/Product";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Navbar from "./Navbar";
-import IncrDecr from "./IncrDecr";
-import Todo from "./Todo";
+import Navbar from "./AppResources/Navbar";
+import IncrDecr from "./AppResources/IncrDecr";
+import Todo from "./AppResources/Todo";
+import Form from "./AppResources/Form";
 
 function App()
 {
@@ -57,6 +58,10 @@ function App()
                   <Route exact path = "/todo">
                       <h1>Todo_App</h1>
                       <Todo />
+                  </Route>
+                  <Route exact path = "/form">
+                      <h1>Form</h1>
+                      <Form />
                   </Route>
               </Switch>
           </div>
